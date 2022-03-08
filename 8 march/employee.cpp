@@ -25,8 +25,7 @@ public:
             return empId;
         }
         else{
-            cout<<"Wrong Password! you are an unauthorized person.";
-            return 0;
+            return -1;
         }
     }
 };
